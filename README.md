@@ -1,11 +1,7 @@
-TITLE: Kubernetes-Based Canary Deployment with K3s and Istio
-
-## Objective
-
-Simulate modern canary deployments using Istio's traffic splitting capabilities on a K3s (or Minikube in this case) cluster to manage traffic between stable and new application versions.
+## TITLE: Kubernetes-Based Canary Deployment with K3s and Istio 🚀
+Objective: Simulate modern canary deployments using Istio's traffic splitting capabilities on a K3s (or Minikube in this case) cluster to manage traffic between stable and new application versions.
 
 ## Prerequisites
-
 *   **Ubuntu Linux:** The environment where commands are executed.
 *   **Docker:** Required as the driver for Minikube.
 *   **Minikube:** To run a local Kubernetes cluster. (The steps use Minikube, although K3s is mentioned in the title - the process is similar).
@@ -14,11 +10,8 @@ Simulate modern canary deployments using Istio's traffic splitting capabilities 
 *   **(Optional) kubens:** A tool to switch between Kubernetes namespaces quickly.
 
 ## Setup
-
 ### 1. Prepare Workspace
-
 Create a dedicated directory for the project.
-
 ```bash
 mkdir canary
 cd canary
